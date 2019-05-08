@@ -1,0 +1,88 @@
+﻿'Project2.exe' (Win32): Loaded 'C:\Users\aryel\source\repos\Progra2\Project2\x64\Debug\Project2.exe'. Symbols loaded.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\mscoree.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Cannot find or open the PDB file.
+The thread 0x347c has exited with code 0 (0x0).
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msvcr120_clr0400.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\psapi.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Unloaded 'C:\Windows\System32\psapi.dll'
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\mscorlib\e2c5db271896923f5450a77229fb2077\mscorlib.ni.dll'. 
+'Project2.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. Cannot find or open the PDB file.
+'Project2.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Users\aryel\source\repos\Progra2\Project2\x64\Debug\Project2.exe'. Symbols loaded.
+'Project2.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\diasymreader.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System\1eca7c432f5a4a5565d7baf771596696\System.ni.dll'. 
+'Project2.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Drawing\83b20ab828331685d1c2e7444bdc3e82\System.Drawing.ni.dll'. 
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Windows.Forms\ac650f25c169d12a3b25602013e92861\System.Windows.Forms.ni.dll'. 
+'Project2.exe' (CLR v4.0.30319: Project2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (CLR v4.0.30319: Project2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Core\7f6e28abc06e0862235287813c887df1\System.Core.ni.dll'. 
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Configuration\6019398a305b7ef3cd3b612919794068\System.Configuration.ni.dll'. 
+'Project2.exe' (CLR v4.0.30319: Project2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (CLR v4.0.30319: Project2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_64\System.Xml\d46ad585cca07bf7e962625b048f54c0\System.Xml.ni.dll'. 
+'Project2.exe' (CLR v4.0.30319: Project2.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.475_none_10e5e328642cef55\comctl32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.475_none_369f2f8b61b2a63a\GdiPlus.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\DWrite.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.475_none_05b43ca607202c6c\comctl32.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
+'Project2.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
+The thread 0x4090 has exited with code 0 (0x0).
+The thread 0xd34 has exited with code 0 (0x0).
+The thread 0x3b14 has exited with code 0 (0x0).
+The thread 0x401c has exited with code 0 (0x0).
+The thread 0x2db8 has exited with code 0 (0x0).
+The thread 0xae4 has exited with code 0 (0x0).
+The thread 0x312c has exited with code 0 (0x0).
+The thread 0x2a34 has exited with code 0 (0x0).
+The thread 0x443c has exited with code 0 (0x0).
+The thread 0x1fa8 has exited with code 0 (0x0).
+The thread 0x2ab4 has exited with code 0 (0x0).
+The program '[10916] Project2.exe' has exited with code 0 (0x0).
