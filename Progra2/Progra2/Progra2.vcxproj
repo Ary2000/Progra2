@@ -148,17 +148,22 @@
     <ClCompile Include="GUI.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuPrincipal.cpp" />
+    <ClCompile Include="OperarArchivo.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fltk.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GUI.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="lista.h" />
     <ClInclude Include="MenuConsultar.h" />
     <ClInclude Include="MenuEliminar.h" />
     <ClInclude Include="MenuInsertar.h" />
     <ClInclude Include="MenuModificar.h" />
     <ClInclude Include="MenuPrincipal.h" />
+    <ClInclude Include="OperarArchivo.h" />
+    <ClInclude Include="Persona.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Simple_window.h" />
     <ClInclude Include="std_lib_facilities.h" />

@@ -30,6 +30,9 @@
     <ClCompile Include="MenuPrincipal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OperarArchivo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fltk.h">
@@ -66,6 +69,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MenuModificar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OperarArchivo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Persona.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
