@@ -25,6 +25,7 @@ MyForm::MyForm(void)
 	InitializeComponent();
 	groupBoxCaja->Hide();
 	textBox6->Enabled = false;
+	textBoxDocumentoErrores->Enabled = false;
 	groupBoxDocumento->Hide();
 	puntoGroupBoxPantalla = groupBoxArchivo->Location;
 	puntoGroupBoxPantalla2 = groupBox2->Location;
@@ -140,6 +141,7 @@ Void MyForm::buttonAbrir_Click(System::Object^  sender, System::EventArgs^  e) {
 	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Abrir documento";
 	buttonEspecial->Text = "Abrir";
+	buttonEspecial->Click += gcnew System::EventHandler(this, &MyForm::buttonAbri_Click);
 	label6->Text = "Archivo a abrir";
 }
 
@@ -149,6 +151,7 @@ Void MyForm::buttonGuardar_Click(System::Object^  sender, System::EventArgs^  e)
 	groupBoxDocumento->Show();
 	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Guardar documento";
+	buttonEspecial->Click += gcnew System::EventHandler(this, &MyForm::buttonGuar_Click);
 	buttonEspecial->Text = "Guardar";
 	label6->Text = "Guardar archivo";
 }
@@ -159,6 +162,7 @@ Void MyForm::buttonGuardarC_Click(System::Object^  sender, System::EventArgs^  e
 	groupBoxDocumento->Show();
 	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Guardar documento como";
+	buttonEspecial->Click += gcnew System::EventHandler(this, &MyForm::buttonGuarC_Click);
 	buttonEspecial->Text = "Guardar como";
 	label6->Text = "Guardar como el archivo";
 }
@@ -168,6 +172,7 @@ Void MyForm::buttonCance_Click(System::Object^  sender, System::EventArgs^  e) {
 	groupBoxDocumento->Hide();
 	groupBoxArchivo->Location = puntoGroupBoxPantalla;
 	groupBox2->Location = puntoGroupBoxPantalla2;
+	textBoxDocumentoErrores->Text = "";
 }
 
 Void MyForm::buttonCancelar_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -179,8 +184,39 @@ Void MyForm::buttonCancelar_Click(System::Object^  sender, System::EventArgs^  e
 	textBox3->Text = "";
 	textBox4->Text = "";
 	textBox5->Text = "";
+	textBox6->Text = "";
 	groupBox2->Show();
 	groupBoxArchivo->Show();
+}
+
+bool MyForm::revisarEntrada(String^ tira) {
+	if (tira->Length < 4) { return false; }
+	if (tira[tira->Length - 1] != 't') { return false; }
+	if (tira[tira->Length - 2] != 'x') { return false; }
+	if (tira[tira->Length - 3] != 't') { return false; }
+	if (tira[tira->Length - 4] != '.') { return false; }
+	return true;
+}
+
+Void MyForm::buttonAbri_Click(System::Object^  sender, System::EventArgs^  e) {
+	bool verificar = revisarEntrada(textBoxDocumento->Text);
+	if(!verificar){
+		textBoxDocumentoErrores->Text = "Texto insertado no es valido";
+	}
+}
+
+Void MyForm::buttonGuar_Click(System::Object^  sender, System::EventArgs^  e) {
+	bool verificar = revisarEntrada(textBoxDocumento->Text);
+	if (!verificar) {
+		textBoxDocumentoErrores->Text = "Texto insertado no es valido";
+	}
+}
+
+Void MyForm::buttonGuarC_Click(System::Object^  sender, System::EventArgs^  e) {
+	bool verificar = revisarEntrada(textBoxDocumento->Text);
+	if (!verificar) {
+		textBoxDocumentoErrores->Text = "Texto insertado no es valido";
+	}
 }
 
 Void MyForm::buttonSalir_Click(System::Object^  sender, System::EventArgs^  e) {

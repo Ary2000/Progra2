@@ -61,6 +61,7 @@ namespace Project2 {
 	private: System::Windows::Forms::Label^  label6;
 	private: Point puntoGroupBoxPantalla;
 	private: Point puntoGroupBoxPantalla2;
+	private: System::Windows::Forms::TextBox^  textBoxDocumentoErrores;
 	protected:
 
 	protected:
@@ -109,6 +110,7 @@ namespace Project2 {
 			this->buttonEspecial = (gcnew System::Windows::Forms::Button());
 			this->textBoxDocumento = (gcnew System::Windows::Forms::TextBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->textBoxDocumentoErrores = (gcnew System::Windows::Forms::TextBox());
 			this->groupBoxArchivo->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->groupBoxCaja->SuspendLayout();
@@ -401,6 +403,7 @@ namespace Project2 {
 			// 
 			// groupBoxDocumento
 			// 
+			this->groupBoxDocumento->Controls->Add(this->textBoxDocumentoErrores);
 			this->groupBoxDocumento->Controls->Add(this->buttonCance);
 			this->groupBoxDocumento->Controls->Add(this->buttonEspecial);
 			this->groupBoxDocumento->Controls->Add(this->textBoxDocumento);
@@ -416,7 +419,7 @@ namespace Project2 {
 			// 
 			// buttonCance
 			// 
-			this->buttonCance->Location = System::Drawing::Point(403, 300);
+			this->buttonCance->Location = System::Drawing::Point(401, 278);
 			this->buttonCance->Margin = System::Windows::Forms::Padding(4);
 			this->buttonCance->Name = L"buttonCance";
 			this->buttonCance->Size = System::Drawing::Size(100, 28);
@@ -427,7 +430,7 @@ namespace Project2 {
 			// 
 			// buttonEspecial
 			// 
-			this->buttonEspecial->Location = System::Drawing::Point(29, 300);
+			this->buttonEspecial->Location = System::Drawing::Point(29, 278);
 			this->buttonEspecial->Margin = System::Windows::Forms::Padding(4);
 			this->buttonEspecial->Name = L"buttonEspecial";
 			this->buttonEspecial->Size = System::Drawing::Size(109, 28);
@@ -453,11 +456,18 @@ namespace Project2 {
 			this->label6->TabIndex = 0;
 			this->label6->Text = L"Archivo especial";
 			// 
+			// textBoxDocumentoErrores
+			// 
+			this->textBoxDocumentoErrores->Location = System::Drawing::Point(0, 322);
+			this->textBoxDocumentoErrores->Name = L"textBoxDocumentoErrores";
+			this->textBoxDocumentoErrores->Size = System::Drawing::Size(536, 22);
+			this->textBoxDocumentoErrores->TabIndex = 4;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(567, 393);
+			this->ClientSize = System::Drawing::Size(1154, 761);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBoxDocumento);
 			this->Controls->Add(this->groupBoxCaja);
@@ -482,6 +492,7 @@ namespace Project2 {
 			bool revisarInt(String^ tira);
 			bool revisarTodoInt(String^ tira, int posicion);
 			bool revisarFechaN(String^ tira);
+			bool revisarEntrada(String^ tira);
 	private: System::Void buttonConsultar_Click(System::Object^  sender, System::EventArgs^  e);
 			
 private: System::Void buttonInsertar_Click(System::Object^  sender, System::EventArgs^  e);
@@ -497,5 +508,8 @@ private: System::Void buttonConsul_Click(System::Object^  sender, System::EventA
 private: System::Void buttonInsert_Click(System::Object^  sender, System::EventArgs^  e);
 private: System::Void buttonModifi_Click(System::Object^  sender, System::EventArgs^  e);
 private: System::Void buttonBorr_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonAbri_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonGuar_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonGuarC_Click(System::Object^  sender, System::EventArgs^  e);
 };
 }

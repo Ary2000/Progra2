@@ -5,7 +5,8 @@
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Cannot find or open the PDB file.
-The thread 0x347c has exited with code 0 (0x0).
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. Cannot find or open the PDB file.
+The thread 0xf28 has exited with code 0 (0x0).
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Cannot find or open the PDB file.
@@ -66,23 +67,21 @@ The thread 0x347c has exited with code 0 (0x0).
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\DWrite.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.475_none_05b43ca607202c6c\comctl32.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. Cannot find or open the PDB file.
-'Project2.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. Cannot find or open the PDB file.
+'Project2.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
-'Project2.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Cannot find or open the PDB file.
 'Project2.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
-'Project2.exe' (Win32): Unloaded 'C:\Windows\System32\WinTypes.dll'
-The thread 0x4090 has exited with code 0 (0x0).
-The thread 0xd34 has exited with code 0 (0x0).
-The thread 0x3b14 has exited with code 0 (0x0).
-The thread 0x401c has exited with code 0 (0x0).
-The thread 0x2db8 has exited with code 0 (0x0).
-The thread 0xae4 has exited with code 0 (0x0).
-The thread 0x312c has exited with code 0 (0x0).
-The thread 0x2a34 has exited with code 0 (0x0).
-The thread 0x443c has exited with code 0 (0x0).
-The thread 0x1fa8 has exited with code 0 (0x0).
-The thread 0x2ab4 has exited with code 0 (0x0).
-The program '[10916] Project2.exe' has exited with code 0 (0x0).
+The thread 0x1a40 has exited with code 0 (0x0).
+The thread 0x2494 has exited with code 0 (0x0).
+The thread 0x4908 has exited with code 0 (0x0).
+The thread 0x4418 has exited with code 0 (0x0).
+The thread 0x433c has exited with code 0 (0x0).
+The thread 0x19c8 has exited with code 0 (0x0).
+The thread 0x3438 has exited with code 0 (0x0).
+The thread 0x4aa8 has exited with code 0 (0x0).
+The thread 0x4f8 has exited with code 0 (0x0).
+The thread 0x47e0 has exited with code 0 (0x0).
+The thread 0x17c4 has exited with code 0 (0x0).
+The program '[2220] Project2.exe' has exited with code 0 (0x0).
