@@ -26,6 +26,8 @@ MyForm::MyForm(void)
 	groupBoxCaja->Hide();
 	textBox6->Enabled = false;
 	groupBoxDocumento->Hide();
+	puntoGroupBoxPantalla = groupBoxArchivo->Location;
+	puntoGroupBoxPantalla2 = groupBox2->Location;
 }
 
 Label^ MyForm::createLabel(String^ title, Drawing::Font^ font, int posx, int posy, int sizex, int sizey) {
@@ -55,8 +57,9 @@ Button^ MyForm::createButton(String ^ title, int posx, int posy, int sizex, int 
 void MyForm::buttonConsultar_Click(System::Object^  sender, System::EventArgs^  e) {
 	//Comunes
 	groupBoxCaja->Show();
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxCaja->Location = puntoGroupBoxPantalla;
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	//Propios
 	groupBoxCaja->Text = "Consultar";
 	buttonConsul->Show();
@@ -72,8 +75,12 @@ void MyForm::buttonConsultar_Click(System::Object^  sender, System::EventArgs^  
 void MyForm::buttonInsertar_Click(System::Object^  sender, System::EventArgs^  e) {
 	//Comunes
 	groupBoxCaja->Show();
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxCaja->Location = puntoGroupBoxPantalla;
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
+	//groupBoxArchivo->Hide();
+	
+	groupBox2->Location = Point(1000, 1000);
 	//Propios
 	groupBoxCaja->Text = "Insertar";
 	buttonConsul->Hide();
@@ -91,8 +98,9 @@ void MyForm::buttonInsertar_Click(System::Object^  sender, System::EventArgs^  e
 void MyForm::buttonEliminar_Click(System::Object^  sender, System::EventArgs^  e) {
 	//Comunes
 	groupBoxCaja->Show();
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxCaja->Location = puntoGroupBoxPantalla;
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	//Propios
 	groupBoxCaja->Text = "Eliminar";
 	buttonConsul->Show();
@@ -114,8 +122,9 @@ void MyForm::buttonEliminar_Click(System::Object^  sender, System::EventArgs^  e
 Void MyForm::buttonModificar_Click(System::Object^  sender, System::EventArgs^  e) {
 	//Comunes
 	groupBoxCaja->Show();
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxCaja->Location = puntoGroupBoxPantalla;
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	//Propios
 	groupBoxCaja->Text = "Modificar";
 	buttonConsul->Show();
@@ -125,27 +134,30 @@ Void MyForm::buttonModificar_Click(System::Object^  sender, System::EventArgs^  
 }
 
 Void MyForm::buttonAbrir_Click(System::Object^  sender, System::EventArgs^  e) {
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	groupBoxDocumento->Show();
+	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Abrir documento";
 	buttonEspecial->Text = "Abrir";
 	label6->Text = "Archivo a abrir";
 }
 
 Void MyForm::buttonGuardar_Click(System::Object^  sender, System::EventArgs^  e) {
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	groupBoxDocumento->Show();
+	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Guardar documento";
 	buttonEspecial->Text = "Guardar";
 	label6->Text = "Guardar archivo";
 }
 
 Void MyForm::buttonGuardarC_Click(System::Object^  sender, System::EventArgs^  e) {
-	groupBoxArchivo->Hide();
-	groupBox2->Hide();
+	groupBoxArchivo->Location = Point(1000, 1000);
+	groupBox2->Location = Point(1000, 1000);
 	groupBoxDocumento->Show();
+	groupBoxDocumento->Location = puntoGroupBoxPantalla;
 	groupBoxDocumento->Text = "Guardar documento como";
 	buttonEspecial->Text = "Guardar como";
 	label6->Text = "Guardar como el archivo";
@@ -154,12 +166,14 @@ Void MyForm::buttonGuardarC_Click(System::Object^  sender, System::EventArgs^  e
 Void MyForm::buttonCance_Click(System::Object^  sender, System::EventArgs^  e) {
 	textBoxDocumento->Text = "";
 	groupBoxDocumento->Hide();
-	groupBoxArchivo->Show();
-	groupBox2->Show();
+	groupBoxArchivo->Location = puntoGroupBoxPantalla;
+	groupBox2->Location = puntoGroupBoxPantalla2;
 }
 
 Void MyForm::buttonCancelar_Click(System::Object^  sender, System::EventArgs^  e) {
 	groupBoxCaja->Hide();
+	groupBoxArchivo->Location = puntoGroupBoxPantalla;
+	groupBox2->Location = puntoGroupBoxPantalla2;
 	textBox1->Text = "";
 	textBox2->Text = "";
 	textBox3->Text = "";
@@ -236,14 +250,12 @@ Void MyForm::buttonInsert_Click(System::Object^  sender, System::EventArgs^  e) 
 		textBox6->Text == "Datos no aceptables";
 	}
 	else {
-		std::string cedula = textBox1->Text->Copy;
 		//Aqui se añade la funcion que inserta el usuario
 	}
 
 }
 
 Void MyForm::buttonBorr_Click(System::Object^  sender, System::EventArgs^  e) {
-	std::string cedula = textBox1->Text->Copy;
 	//Aqui se añade la funcion que que borra el usuario
 }
 
@@ -257,7 +269,6 @@ Void MyForm::buttonModifi_Click(System::Object^  sender, System::EventArgs^  e) 
 		textBox6->Text == "Datos no aceptables";
 	}
 	else {
-		std::string cedula = textBox1->Text->Copy;
 		//Aqui se añade la funcion que que modifica el usuario
 	}
 
