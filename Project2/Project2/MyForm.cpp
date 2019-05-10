@@ -218,6 +218,7 @@ Void MyForm::buttonConsul_Click(System::Object^  sender, System::EventArgs^  e) 
 		textBox6->Text = "Cédula Inválida";
 	}
 	else {
+		//Aqui se pasan los datos
 		int x = 20;
 	}
 }
