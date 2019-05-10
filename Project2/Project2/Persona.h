@@ -13,6 +13,7 @@ class Persona {
 	string apellido2;
 	string cedula;
 	string date;
+	Persona* sig;
 public:
 	Persona() {}
 	Persona(string c, string n, string a1, string a2, string b) {
