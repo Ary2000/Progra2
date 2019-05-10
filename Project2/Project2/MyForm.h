@@ -134,6 +134,7 @@ namespace Project2 {
 			this->buttonSalir->TabIndex = 3;
 			this->buttonSalir->Text = L"Salir";
 			this->buttonSalir->UseVisualStyleBackColor = true;
+			this->buttonSalir->Click += gcnew System::EventHandler(this, &MyForm::buttonSalir_Click);
 			// 
 			// buttonGuardarC
 			// 
@@ -147,7 +148,7 @@ namespace Project2 {
 			// 
 			// buttonGuardar
 			// 
-			this->buttonGuardar->Location = System::Drawing::Point(47, 82);
+			this->buttonGuardar->Location = System::Drawing::Point(47, 96);
 			this->buttonGuardar->Name = L"buttonGuardar";
 			this->buttonGuardar->Size = System::Drawing::Size(75, 23);
 			this->buttonGuardar->TabIndex = 1;
@@ -180,7 +181,7 @@ namespace Project2 {
 			// 
 			// buttonModificar
 			// 
-			this->buttonModificar->Location = System::Drawing::Point(58, 217);
+			this->buttonModificar->Location = System::Drawing::Point(58, 226);
 			this->buttonModificar->Name = L"buttonModificar";
 			this->buttonModificar->Size = System::Drawing::Size(75, 23);
 			this->buttonModificar->TabIndex = 3;
@@ -200,7 +201,7 @@ namespace Project2 {
 			// 
 			// buttonInsertar
 			// 
-			this->buttonInsertar->Location = System::Drawing::Point(58, 82);
+			this->buttonInsertar->Location = System::Drawing::Point(58, 96);
 			this->buttonInsertar->Name = L"buttonInsertar";
 			this->buttonInsertar->Size = System::Drawing::Size(75, 23);
 			this->buttonInsertar->TabIndex = 1;
@@ -257,6 +258,7 @@ namespace Project2 {
 			this->buttonCancelar->TabIndex = 13;
 			this->buttonCancelar->Text = L"Cancelar";
 			this->buttonCancelar->UseVisualStyleBackColor = true;
+			this->buttonCancelar->Click += gcnew System::EventHandler(this, &MyForm::buttonCancelar_Click);
 			// 
 			// buttonPrincipal
 			// 
@@ -284,6 +286,7 @@ namespace Project2 {
 			this->buttonConsul->TabIndex = 10;
 			this->buttonConsul->Text = L"Consultar";
 			this->buttonConsul->UseVisualStyleBackColor = true;
+			this->buttonConsul->Click += gcnew System::EventHandler(this, &MyForm::buttonConsul_Click);
 			// 
 			// textBox5
 			// 
@@ -438,6 +441,9 @@ namespace Project2 {
 		private:
 			Label^ createLabel(String^ title, Drawing::Font^ font, int posx, int posy, int sizex, int sizey);
 			Button^ createButton(String ^ title, int posx, int posy, int sizex, int sizey);
+			bool revisarInt(String^ tira);
+			bool revisarTodoInt(String^ tira, int posicion);
+			bool revisarFechaN(String^ tira);
 	private: System::Void buttonConsultar_Click(System::Object^  sender, System::EventArgs^  e);
 			
 private: System::Void buttonInsertar_Click(System::Object^  sender, System::EventArgs^  e);
@@ -447,5 +453,11 @@ private: System::Void buttonAbrir_Click(System::Object^  sender, System::EventAr
 private: System::Void buttonGuardar_Click(System::Object^  sender, System::EventArgs^  e);
 private: System::Void buttonGuardarC_Click(System::Object^  sender, System::EventArgs^  e);
 private: System::Void buttonCance_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonCancelar_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonSalir_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonConsul_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonInsert_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonModifi_Click(System::Object^  sender, System::EventArgs^  e);
+private: System::Void buttonBorr_Click(System::Object^  sender, System::EventArgs^  e);
 };
 }
