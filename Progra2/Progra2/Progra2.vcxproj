@@ -154,6 +154,7 @@
     <ClInclude Include="fltk.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GUI.h" />
+    <ClInclude Include="HashTable.h" />
     <ClInclude Include="MenuConsultar.h" />
     <ClInclude Include="MenuEliminar.h" />
     <ClInclude Include="MenuInsertar.h" />
