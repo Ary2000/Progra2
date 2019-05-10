@@ -140,6 +140,7 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="OperarArchivos.h" />
     <ClInclude Include="Persona.h" />
   </ItemGroup>
   <ItemGroup>
